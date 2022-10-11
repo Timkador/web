@@ -1,0 +1,29 @@
+.avaconf
+{
+    width: 32px;
+    height: 32px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+hr
+{
+    border-style: none;
+    border-top-style: solid;
+    border-color: #5c7523;
+    border-width: 123px
+}
+.custom-ul
+{
+    list-style: armenian;
+    font-size: 2px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+}
+a:hover
+{
+    text-decoration:underline;
+}

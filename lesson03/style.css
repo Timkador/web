@@ -1,0 +1,26 @@
+body 
+{
+    background-color: #FF0000;
+    text-align: center;
+}
+
+.size-up
+{
+    font-size: 200px
+}
+
+#red
+{
+    color: #ee1111;
+}
+
+.rotate
+{
+    transform: rotate(45deg);
+}
+
+.grey-cube
+{
+    background-color: #dd2222;
+    height: 1337px
+}
