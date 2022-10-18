@@ -1,0 +1,69 @@
+br{
+    margin: 10px
+}
+body{
+    background-color: rgb(15, 0, 24);
+    text-align: center;
+}
+.underline{
+    font-family: 'Cabin', sans-serif;
+    margin:50px;
+}
+
+a.underline{
+    font-size: 6vw;
+    text-decoration: none;
+    font-weight: bold;
+    color:gold;
+    position: relative;
+    transition: color 0.8s, text-shadow 0.8s;
+}
+
+a.underline:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    background: teal;
+    width: 0%;
+    height: 20%;
+    z-index: -1;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s, height 180s;
+    opacity: 0;
+    box-shadow: 0 0 16px rgba(42, 157, 37,0);
+}
+
+a.underline:hover{
+    color: rgb(156, 172, 18);
+    text-shadow: 0 0 16px rgba(186,192,22,0.64)
+}
+
+a.underline:hover:after{
+    width: 100%;
+    height: 400%;
+    opacity: 1;
+    box-shadow: 0 0 1600px rgba(186,192,22,0.64);
+}
+
+a.underline_a:after{
+    right:0;
+}
+
+a.underline_a:hover:after{
+    right:auto;
+    left:0
+}
+
+a.underline_b::after{
+    left:0;
+}
+
+a.underline_b:hover::after{
+    left:auto;
+    right:0
+}
+
+a.underline_c::after{
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

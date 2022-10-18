@@ -27,3 +27,30 @@ a:hover
 {
     text-decoration:underline;
 }
+
+
+
+.githubButton {
+	box-shadow: -36px -21px 27px 50px #d59ef0;
+	background:linear-gradient(to bottom, #112038 5%, #851b6c 100%);
+	background-color:#112038;
+	border-radius:10px;
+	border:6px solid #8c944d;
+	display:inline-block;
+	cursor:pointer;
+	color:#8f3e00;
+	font-family:Trebuchet MS;
+	font-size:14px;
+	font-style:italic;
+	padding:6px 19px;
+	text-decoration:none;
+	text-shadow:-50px -1px 2px #2fd669;
+}
+.githubButton:hover {
+	background:linear-gradient(to bottom, #851b6c 5%, #112038 100%);
+	background-color:#851b6c;
+}
+.githubButton:active {
+	position:relative;
+	top:1px;
+}
