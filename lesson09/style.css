@@ -1,0 +1,22 @@
+img{
+    width:180px;
+    float:left;
+}
+
+p{
+    width:20%;
+}
+.cube{
+    width: 100px;
+    height: 200px;
+}
+
+.red{
+    background-color: #dd1111;
+    margin-bottom: 20px;
+}
+
+.green{
+    background-color: #01ee99;
+    margin-top: 30px;
+}

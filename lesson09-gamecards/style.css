@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+}
+.fxqst{
+    position: fixed;
+    right:20px;
+    bottom:30px;
+    z-index: 10;
+}
+
+.promotion{
+    background-color: crimson;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    padding-bottom: 5vh;
+}
+
+h1{
+    font-size: 55px;
+}
+
+.a{
+    margin:auto;
+    height:50vh;
+    font-family: 'Poppins', sans-serif;
+}
+.about{
+    padding:20px;
+    padding-bottom: 10px;
+    color: crimson;
+    font-size: 32px;
+    background-color: white;
+    position: sticky;
+    top: 0px
+}
+
+.duck-template1{
+    width:200px
+}
