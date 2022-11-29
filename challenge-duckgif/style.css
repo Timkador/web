@@ -1,0 +1,10 @@
+.duck{
+    background-image: linear-gradient(to bottom right, rgba(255, 0, 0, 0.75), rgba(255, 255, 0, 0.75)), url('img/ducki.gif');
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style: double;
+    border-color: black;
+}
