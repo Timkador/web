@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nabla', cursive;
+    color: skyblue;
+    background-color: black;
+    padding: 50px;
+    text-align: center;
+    letter-spacing: 100px;
+    text-shadow: 0 0 2px #ffff00;
+}
