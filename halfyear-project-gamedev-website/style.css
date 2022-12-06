@@ -1,0 +1,49 @@
+:root{
+    --btn-color: #ce0002
+    --yellow: #ffee2f
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chakra{
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.grotesk{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+.heading, h1{
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    text-transform: uppercase;
+}
+
+.heading{
+    max-width: 178px;
+}
+
+.btn{
+    font-weight: 700;
+    background-color: var(--btn-color);
+    color:white;
+    border:none;
+    cursor: pointer;
+    text-align: left;
+}
+
+im totally typing the exact thing that i need and there's a possibility that i might need to ask the teacher on where they are but im so bored at this that i decided that i don't want to continue doing this so it's not really ok to do so but i don't mind because i've been feeling awful for the past hour and i want to just go home i really want to go home and there's just 10 minutes left so maybe if i count exactly ten minutes in seconds i might be survive so maybe i should start counting, but there's ok it's 9 minutes now i can do it: one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eightteen nineteen twenty twenty-one twenty-two twenty-three twenty-four twenty-five twenty-six twenty-seven twenty-eight twenty-nine thirty
