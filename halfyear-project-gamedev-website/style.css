@@ -1,5 +1,5 @@
 :root{
-    --btn-color: #ce0002
+    --btn-color: #ce0002;
     --yellow: #ffee2f
 }
 
@@ -46,4 +46,227 @@ a{
     text-align: left;
 }
 
-im totally typing the exact thing that i need and there's a possibility that i might need to ask the teacher on where they are but im so bored at this that i decided that i don't want to continue doing this so it's not really ok to do so but i don't mind because i've been feeling awful for the past hour and i want to just go home i really want to go home and there's just 10 minutes left so maybe if i count exactly ten minutes in seconds i might be survive so maybe i should start counting, but there's ok it's 9 minutes now i can do it: one two three four five six seven eight nine ten eleven twelve thirteen fourteen fifteen sixteen seventeen eightteen nineteen twenty twenty-one twenty-two twenty-three twenty-four twenty-five twenty-six twenty-seven twenty-eight twenty-nine thirty
+.container {
+    max-width: 85%;
+    margin: auto;
+}
+ 
+.header {
+    position: relative;
+    margin-bottom: 130px;
+}
+
+.main-header::before {
+    width: 85%;
+    background-color: var(--yellow);
+}
+ 
+.games-header p {
+    max-width: 40%;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+ 
+.header-top {
+    padding: 45px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.header-nav {
+    display: flex;
+    
+}
+
+.prenav{
+    background-color: var(--btn-color);
+}
+.header-nav a {
+    font-weight: 700;
+}
+
+.header-nav a.active{
+    color:  #FF0000;
+}
+
+.header-content{
+    padding: 0 60px;
+    position: relative;
+    margin-top: 100px;
+}
+
+h1{
+    max-width: 60%;
+    margin-top: 40px;
+}
+
+.header-img{
+    position: absolute;
+    right: 50px;
+    top: -100px
+}
+
+.main-header-content q{
+    display: inline-block;
+    max-width:450px;
+    font-weight: 900;
+    font-size: 45pt;
+}
+
+.yellish{
+    background-color: var(--yellow);
+    width:60%;
+    transform: rotateX(30deg);
+}
+
+.main-header-btn{
+    height: 120px;
+    width: 120px;
+    padding:15px;
+    padding-bottom: 45px;
+    background-color: var(--btn-color);
+    font-size: 50px;
+    position: relative;
+    margin: 10px 40px 22px 100px;
+}
+
+.main-header-btn::after{
+    content: url("img/arrow.png");
+    position: absolute;
+    bottom: 15px;
+    left:50%;
+    transform: translateX();
+}
+
+.team{
+    position:relative;
+    padding-top: 1vh;
+    margin-bottom: 1px;
+}
+
+.team::before{
+    content: "";
+    position:absolute;
+    top:-399;
+    left:0;
+    width:120%;
+    height:50%;
+    background-color: aquamarine;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.team h2{
+    max-width: 600px;
+
+}
+
+.mems{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.mem{
+    width:250px;
+    animation: 10s flipper infinite
+}
+
+.mem h3{
+    font-weight: 100;
+    font-size: 10vh;
+    margin-bottom: 4vw;
+}
+
+/* Games page */
+.up-btn{
+    width: 2vw;
+    height: 100vh;
+    background-color: #60c525;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right:-1.9vw;
+    top: 99.8vh;
+    z-index: -1;
+    text-align:bottom;
+    cursor:grab;
+
+}
+.up-btn{
+    width: 200vw;
+    height: 100vh;
+    background-color: #60c525;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    right:1.9vw;
+    top: 299.8vh;
+    z-index: -1;
+    text-align:bottom;
+    cursor:grab;
+
+}
+.up-btn:hover{
+    visibility: hidden;
+    transform: scale(0);
+}
+
+.games{
+    display: flex;
+}
+.rotato{
+    width: 100px;
+    height: 5vh;
+    position: relative;
+    animation: 120s rotato infinite;
+}
+/* Animation zone */
+
+@keyframes flipper{
+    0%{
+        transform: rotateY(360deg);
+    }
+    33%{
+        transform: rotateY(90deg);
+    }
+    66%{
+        transform: rotateY(180deg);
+    }
+    100%{
+        transform: rotateY(270deg)
+    }
+}
+
+@keyframes rotato{
+    0%{
+        transform: scale(1), rotate(0deg);
+    }
+    1%{
+        transform: rotateX(90deg), scale(3);
+        transform: rotate(435deg);
+        width:10px;
+    }
+    12%{
+        transform: scaleZ(2), scaleY(0.1);
+        height: auto;
+    }
+    44%{
+        transform: rotate(245deg);
+    }
+    45%{
+        right:0px;
+        top:0px;
+    }
+    73%{
+        transform: rotate(45deg);
+    }
+    91%{
+        transform: scale(0.5);
+    }
+    100%{
+        transform: rotate(4335deg);
+    }
+}
